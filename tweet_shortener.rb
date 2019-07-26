@@ -24,3 +24,17 @@ def word_substituter (string)
 array.join(" ")
 end
 
+def bulk_tweet_shortener(array)
+  array.each_with_index do  |tweet, index|
+  tweet_array = tweet.split 
+  tweet_array.each_with_index do  |word, index|
+  dictionary.keys.each do |x|
+    if words.downcase == x 
+      tweet_array[index] = dictionary[x]
+    end
+  end
+end 
+tweet = array.join(" ")
+puts tweet
+end 
+end
