@@ -28,7 +28,7 @@ def bulk_tweet_shortener(array)
   tweet_array = tweet.split 
   tweet_array.each_with_index |words, index|
   dictionary.keys.each do |x|
-    if words == x 
+    if words.downcase == x 
       
   
   
