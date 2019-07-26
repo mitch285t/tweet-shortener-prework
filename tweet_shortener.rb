@@ -24,3 +24,4 @@ def word_substituter (string)
 array.join(" ")
 end
 
+
