@@ -23,8 +23,8 @@ def word_substituter (string)
       end
 array.join(" ")
 end
-
+def bulk_tweet_shortener(word_substituter)
 puts word_substituter
-     
+   end
     
     
