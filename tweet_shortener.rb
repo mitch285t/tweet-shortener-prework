@@ -23,15 +23,5 @@ def word_substituter (string)
       end
 array.join(" ")
 end
-def bulk_tweet_shortener(string)
-array = string.split
-  array.each_with_index do |words,index|
-    dictionary.keys.each do |x|
-      if x == words 
-      array[index] = dictionary[x]
-      end
-      end
-      end
-    array.join("")
-    puts 
+
     
