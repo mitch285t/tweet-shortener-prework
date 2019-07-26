@@ -21,7 +21,7 @@ def word_substituter (string)
       end
       end
       end
-array.join
+array.join(" ")
 end
      
     
