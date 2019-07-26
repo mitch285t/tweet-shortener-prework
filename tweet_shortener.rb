@@ -16,7 +16,7 @@ def word_substituter (string)
   array = string.split
   array.each_with_index do |words,index|
     dictionary.keys.each do |x|
-      if x == words.downcase 
+      if words.downcase == x 
       array[index] = dictionary[x]
       end
       end
