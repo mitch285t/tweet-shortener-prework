@@ -33,7 +33,9 @@ def bulk_tweet_shortener(array)
     end
   end
 end 
-
+tweet = array.join(" ")
+puts tweet
+end 
   
   
   
