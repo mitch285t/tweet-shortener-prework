@@ -38,4 +38,4 @@ tweet = tweet_array.join(" ")
 puts tweet
 end 
 end
-
+def selective_tweet_shortener
