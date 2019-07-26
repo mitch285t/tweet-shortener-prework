@@ -23,5 +23,11 @@ def word_substituter (string)
       end
 array.join(" ")
 end
-def bulk_tweet_shortener(tweet)
+def bulk_tweet_shortener(array)
+  array = 
+  
+  
+  
+  
+end 
     
