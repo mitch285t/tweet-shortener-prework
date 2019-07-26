@@ -26,7 +26,10 @@ end
 def bulk_tweet_shortener(array)
   array.each_with_index |tweet, index|
   tweet_array = tweet.split 
-  
+  tweet_array.each_with_index |words, index|
+  dictionary.keys.each do |x|
+    if words == x 
+      
   
   
   
